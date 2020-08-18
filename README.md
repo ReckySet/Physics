@@ -14,94 +14,71 @@
 
 ### １．物理学とはなにか
 
-Let's try it out!
-Apply different styling to this paragraph:
-**HackMD gets everyone on the same page with Markdown.** ==Real-time collaborate on any documentation in markdown.== Capture fleeting ideas and formalize tribal knowledge.
+ここ３００年の間、実に膨大な量の物理に関する仕事がなされてきた。だが、驚くべきことにこれらの知識は、ずーっと少ない量に圧縮ができるのだ。それらのことを法則と呼び、それに従って私達は勉強をしていくことになる。
 
-- [x] **Bold**
-- [ ] *Italic*
-- [ ] Super^script^
-- [ ] Sub~script~
-- [ ] ~~Crossed~~
-- [x] ==Highlight==
+よく数学と物理の差異として、数学は公理と定義から議論が始まり、それに終始することができる
+が、物理はそれができないことが挙げられる。残念ながら、公理を列挙して物理の話をするのは不可能なのだ。なぜなら、僕たちはどうやら、まだまだ世界を知り尽くせていないからだ。
+
+では、物理学を話すにあたってはどこから話し始めるべきだろうか。昔から法則を検証する方法があり、それに従うことにしよう。それはどんなものかと言うと、まず、世界のある現象を注意深く観察して、それらを数学や言葉を使って説明し、その説明が正しいかを実験する。こういったことを繰り返すのだ。
+
+具体的に話していこう。物事を知ることとはどういうことなのか。
+
+まず、目の前で何かしら、現象が起きるのだ。それはりんごが木から落ちるでも、音が聞こえるでも、風が吹いているでもいいのだ。我々は、それらを観察することはできる。目によってでも、肌によってでも、耳によってでもいい。ところが、私達はそれに理由付けを行うことはどうも難しい。神がそのようにした理由を知ろうとする試みは、残念ながら成功しているという話は聞かない。[要出典]我々にできるのはせいぜい、そのルールを知ることなのだ。りんごが落ちる理由を知らずとも、りんごが落ちるというルールに従っているとわかるのだ。
+
+では、上のようなことをすれば世界を支配するルールを見つけることはたやすくできるのか。残念ながら、世界は非常に複雑で、深い洞察力を持って観測しなければ、その複雑さに圧倒されてしまうからだ。オセロのルールはひどくシンプルなのだが、対局が単調であることはない。自然の法則がシンプルである保証はないが、もしそれがシンプルだったとしても、恐ろしい数の粒子が動き回っているおかげで、現象は凄まじく複雑になるのだ。
+
+さて、どうやって自然を支配するルールを見つけるのだろうか。主に３つの方法がある。
+
+まず、自然をシンプルな形として捉え、または、自然のシンプルな側面を捉え、言葉と数式に落とし込んでいくという方法がある。その後、作り上げたルールを実験によって軽く確認することもできる。
+
+次に、すでにある法則から、もう一つ小さな法則を導き出し、それが正しいかどうかを実験によって確かめるというものだ。また、これによって新しいルールを見つけることに失敗した場合、つまり、すでにある法則から導き出した小さな法則がどうも現実と合わない場合、大きな法則の間違いを指摘する、大きな発見にもなる。
+
+最後に、推測というものがある。多分こうだろうという推測で、法則を作り、それを実験していくのだ。これが意外とうまく行った事例もいくつかある。
+
+物理学では、見つけた世界の法則をまとめて、もっとシンプルなものにしていくのが普通である。たとえば、熱と力学は同じ法則にまとめられたのだ。熱とは結局原子の動きであり、原子の動きを支配する法則は力学であり、クレラが同じ法則にまとめられたのは当然の帰結であった。電場、磁場、光も同じ法則にまとめられ、化学反応論も原子の動きとともに語られることとなった。
+
+ところが、現代物理学では、新しい法則がいくつも出来上がり、それらのをすべてまとめた理論はまだできていない。そのうえ、果たしてあるかどうかもわからない。
+
+1920年までの物理学とは次のようなものであった。
+
+宇宙はユークリッド幾何学に従う3次元空間で、時間を媒介変数にしてすべての粒子が動く。動いている粒子に力が働かない限り、同じ方向に向かって、同じ速さで動き続けるのだ。力には重力や粒子同士に働く複雑な力などがある。
+
+これだけでも十分すぎるほど、世界を記述できるのだ。
+
+風は粒子たちが同じ方向に向かって動いている現象であり、圧力は粒子同士のぶつかり合いの結果である、熱は粒子の振動の減少であり、音は粒子の詰まってる場所が、詰まってない場所に向かって動き、新たな場所に詰まった場所を作り出す、そういった伝達現象である。
+
+物体同士で働く重力によってりんごは地面に落ち、月は地球の周りを回り、地球は太陽の周りを回るのだ。なぜ月が地球に落ちないのか。ハンマー投げ選手がハンマーから伸びる紐を引っ張りながらぐるぐる回っているのだが、ハンマーはむしろ選手から離れるようであるのと同じである。月は重力のおかげで地球に繋ぎ止められているが、重力がなければ、どこかに飛んでいくのだ。
+
+上に述べた複雑な力についての話である。物と物がぶつかっても跳ね返り、私達が地面と一体化しない力である。重力とは物と物の間に働く、互いを吸い付ける力であるが、この複雑な力は、互いに吸い付けることもあれば、退け合うこともある。また、この力の性質は粒子同士が遠い場合には全く働かず、極めて近いときには重力と比較にならないような大きさになる。どれほど大きいかというと、東京スカイツリーが崩れ落ちないほどであり、エベレストがその形を保たせているほどである。その力の名前は電磁気力と呼ばれる。
+
+中学校で学んだように、原子とは中心に原子核があり、その周りを電子が回っているというものだが、これは遠くから見れば、電気的に中性なのだ。つまり、離れているもの同士にはこの力は働かない。だが、近づけば近づくほど、原子は中性的なものとして見られなくなる。たしかに、原子の周りには電子が動き回っているのだ。電子同士には退け合う力が働く。ゆえに、我々は地面と区別がつくのだ。
+
+電磁気力は距離が働いていても働く。遠くから見れば電気的に中性的ではないもの同士には力が働くのだ。たとえば、乾いた布で擦った下敷きと髪の毛はひきつけ合う。
+:::info
+:bulb: この際なぜ下敷きと髪の毛が帯電するかはよくわかっていない
+:::
+この働いている力の伝達速度はあるのか、つまり、下敷きをいくら素早く動かしても髪の毛は常に下敷きに向くかどうか。じつは、ある程度以上の速さで動かすと髪の毛に電磁気力が働くまでにはラグができるとわかっている。
+
+これに似たような現象は、水槽にある。水面に発泡スチロール片を浮かべ、それを直接触らずに動かそうと思えば、水に指を入れて波を作ればいい。波が発泡スチロール片にたどり着くときに、それは動き出すのだ。電磁気力も波として伝わるのだ。それを電磁波と呼び、現代社会を支えているのだ。スマホのインターネット、テレビ、衛星放送、GPS、ラジオ、これらすべてが電磁波の応用によって成り立っているのだ。
+
+1920年までの物理の概要は以上のものである。1920年以降、今まで述べた世界はガラリと変わることになる。例えば、ニュートンの発見した、運動の法則は間違っていたとわかるのだ。世界は3次元ではなく、 時間を含めた4次元であるとわかったのだ。
+
+ものを詳しく見ようとすればするほど、それは不明瞭になってくる。誰もが、ある粒子の正確な速さと場所を両方知ることはできないのが、不確定性原理の言うところのことである。これから、完全な予言は不可能だという結論が出てくる。それまで、物理法則は東京で行っている実験と大阪で行っている実験で、装置のすべての原子配置が同じだったとしたら、同じ結果が出るだろうと思われていた前提が、覆ってしまったのだ。どんなに注意深く、理想的な実験をしたとしても、全く同じ結果を出すのは不可能なのだ。
+
 
 :::info
-:bulb: **Hint:** You can also apply styling from the toolbar at the top :arrow_upper_left: of the editing area.
-
-![](https://i.imgur.com/Cnle9f9.png)
+:bulb: だからといって絶望する必要はない。全く同じ結果にならないと言っても、顕微鏡レベルで見える大きな物体であれば、同じ実験からはほぼ同じ結果が出てくるだろうから。
 :::
 
-> Drag-n-drop image from your file system to the editor to paste it!
 
-### Step 3: Invite your team to collaborate!
-
-Click on the <i class="fa fa-share-alt"></i> **Sharing** menu :arrow_upper_right: and invite your team to collaborate on this note!
-
-![permalink setting demo](https://i.imgur.com/PjUhQBB.gif)
-
-- [ ] Register and sign-in to HackMD (to use advanced features :tada: ) 
-- [ ] Set Permalink for this note
-- [ ] Copy and share the link with your team
-
-:::info
-:pushpin: Want to learn more? ➜ [HackMD Tutorials](https://hackmd.io/c/tutorials) 
-:::
-
----
-
-## BONUS: More cool ways to HackMD!
-
-- Table
-
-| Features          | Tutorials               |
-| ----------------- |:----------------------- |
-| GitHub Sync       | [:link:][GitHub-Sync]   |
-| Browser Extension | [:link:][HackMD-it]     |
-| Book Mode         | [:link:][Book-mode]     |
-| Slide Mode        | [:link:][Slide-mode]    | 
-| Share & Publish   | [:link:][Share-Publish] |
-
-[GitHub-Sync]: https://hackmd.io/c/tutorials/%2Fs%2Flink-with-github
-[HackMD-it]: https://hackmd.io/c/tutorials/%2Fs%2Fhackmd-it
-[Book-mode]: https://hackmd.io/c/tutorials/%2Fs%2Fhow-to-create-book
-[Slide-mode]: https://hackmd.io/c/tutorials/%2Fs%2Fhow-to-create-slide-deck
-[Share-Publish]: https://hackmd.io/c/tutorials/%2Fs%2Fhow-to-publish-note
-
-- LaTeX for formulas
-
-$$
-x = {-b \pm \sqrt{b^2-4ac} \over 2a}
-$$
-
-- Code block with color and line numbers：
-```javascript=16
-var s = "JavaScript syntax highlighting";
-alert(s);
-```
-
-- UML diagrams
-```sequence
-Alice->Bob: Hello Bob, how are you?
-Note right of Bob: Bob thinks
-Bob-->Alice: I am good thanks!
-Note left of Alice: Alice responds
-Alice->Bob: Where have you been?
-```
-- Auto-generated Table of Content
-[ToC]
-
-> Leave in-line comments! [color=#3b75c6]
-
-- Embed YouTube Videos
-
-{%youtube PJuNmlE74BQ %}
-
-> Put your cursor right behind an empty bracket {} :arrow_left: and see all your choices.
-
-- And MORE ➜ [HackMD Tutorials](https://hackmd.io/c/tutorials)
 
 ### 復習ノート
 
-- [x] Create my first HackMD note (this one!)
-- [ ] Change its title
-- [ ] Add a tag
+講義の軽いまとめである。
+
+- [ ] 物理学とは世界を理解するための学問である
+- [ ] シンプルな法則によって世界は意外とよく理解できる
+- [ ] 現代物理学では摩訶不思議なことをやっている
+
+
+
